@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1E1E1E; /* Slightly lighter dark background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+}
+
+h1, h2 {
+    color: #03C988; /* Highlight color */
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-method {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.contact-method:last-child {
+    margin-right: 0;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #03C988; /* Border color */
+    border-radius: 4px;
+    background-color: #2A2A2A; /* Input background */
+    color: #ffffff; /* Input text color */
+}
+
+input[type="submit"] {
+    background-color: #03C988; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #9DB2BF; /* Darker on hover */
+}
