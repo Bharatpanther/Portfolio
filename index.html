@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshvardhan</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="image//apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_package_v0.16/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<div>
+  <header>
+    <div id="symbol">
+      <p> H </p>
+    </div>
+    <nav>
+      <!-- Hamburger icon -->
+      <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="navUl" id="navUl">
+        <!-- <li><a href="">About</a></li> -->
+        <!-- <li><a href="">Projects</a></li> -->
+        <li><a href="./Contact us/contact.html">Contact</a></li>
+        <li><a href="/experiance.html">Experience</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>     
+    </nav>
+  </header>
+  <div class="main">
+    <div class="social_bar">
+      <div>
+        <a href="https://github.com/Bharatpanther" target="_blank"><img src="./images/github.png" alt="github link"></a>
+        <br />
+        <a href="https://discordapp.com/users/1246339924513390693" target="_blank"><img src="./images/discord.png"
+            alt="discord link"></a>
+        <br />
+        <a href="mailto:harshsamariya507@gmail.com" target="_blank"><img src="./images/gmail.png"
+            alt=" gamil address"></a>
+        <br />
+      </div>
+    </div>
+    <div class="intro">
+      <p> <span class="f_line">Hi, my name is </span> </p>
+      <br>
+      <h1 class="name">Harshvardhan Samariya</h1>
+      <h1 class="profession">and I am Frontend web developer</h1>
+      <p>
+        <span class="about_me">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque non, totam voluptates dolorum laborum
+          dignissimos vel soluta voluptatem rerum quod.
+        </span>
+      </p>
+      <div style="display: flex; padding:0px 0px 0px 29px;">
+        <img src="./images/langicon/bootstrap-5-1.svg" class="logo" alt="language icon" >
+        <img src="./images/langicon/css-3.svg" class="logo" alt="language icon" >
+        <img src="./images/langicon/github-icon-1.svg" class="logo" alt="language icon" >
+        <img src="./images/langicon/html5-2.svg" class="logo" alt="language icon" >
+        <img src="./images/langicon/nodejs.svg" class="logo" alt="language icon" >
+        <img src="./images/langicon/react-native-1.svg" class="logo" alt="language icon" >
+        <img src="./images/langicon/tailwind-css-2.svg" class="logo" alt="language icon" >
+        <img src="./images/langicon/javascript-1.svg" class="logo" alt="language icon" >
+      </div>
+    </div>
+  </div>
+  <div class="container" >
+    <div class="card">
+      <h1>Projects</h1>
+      <p>
+        <a href="https://github.com/Bharatpanther/Health-bridge-main/tree/main/Health-bridge-main">Health Bridge</a>
+        <a href="https://github.com/Bharatpanther/Myfashion-main">My Fashion</a>
+      </p>
+    </div>
+    <div class="card ">
+      <h1>Internship</h1>
+      <p >"Completed a frontend web development internship at Khwahish IT Solutions Pvt. Ltd., Jaipur, utilizing the MERN stack."</p>
+      <button class="btn"  >Read More</button>
+    </div>
+    <div class="card">
+      <h1>Social links</h1>
+      <p>
+        <a href="https://github.com/Bharatpanther">GitHub</a>
+        <a href="https://discordapp.com/users/harshu_18122_22987">Discord</a>
+        <a href="https://www.linkedin.com/in/harshvardhan-samariya-307a82262">LinkedIn</a>
+        <!-- <a href="">LeetCode</a> -->
+        <a href="https://www.instagram.com/harsh._.sm/">Instagram</a>
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>Harshvardhan</h3>
+        <p>Frontend Developer | Web Designer</p>
+      </div>
+      <div class="footer-contact">
+        <p>Email: <a href="mailto:harshsamariya507@gmail.com">harshsamariya507@gmail.com</a></p>
+        <p>Phone: +91 9116424909</p>
+        <p>Location: Abu-Road, India</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Harshvardhan | Designed by 💛Myself</p>
+    </div>
+  </footer>
+
+  </body>
+  <script>
+    document.querySelector('.btn').addEventListener('click', function(){
+        window.location.href='./int/internship.html'
+    } );
+
+    const hamburger = document.getElementById('hamburger');
+  const navUl = document.getElementById('navUl');
+
+  hamburger.addEventListener('click', function() {
+    navUl.classList.toggle('active');
+  });
+
+   
+  </script>
+
+  
+  </html>
+
